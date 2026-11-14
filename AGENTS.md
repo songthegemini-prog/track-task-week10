@@ -36,3 +36,13 @@
 - กติกาที่กระทบความถูกต้อง (1 คนอยู่ได้ 1 ทีม, หัวหน้าเท่านั้นสร้างงาน, มอบงานได้เฉพาะสมาชิกทีม, ผู้รับงานแก้ได้แค่สถานะ) ต้องบังคับในฐานข้อมูล
 - Codex ห้ามรัน SQL กับฐานข้อมูลเอง ให้เขียนไฟล์ใน `supabase/migrations/` แล้วบอกผู้ใช้ให้วางรันใน Supabase SQL Editor
 - ตรวจผู้ใช้ฝั่ง server ด้วย `supabase.auth.getUser()` หรือ `getClaims()` ไม่เชื่อ `user_id` ที่ส่งมาจากฟอร์ม
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+## This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->
