@@ -1,0 +1,4 @@
+interface:
+  display_name: "SDLC Spec"
+  short_description: "วางแผน เขียน requirements และออกแบบระบบก่อนเขียนโค้ด"
+  default_prompt: "Use $sdlc-spec to write docs/plan.md, docs/requirements.md, docs/design.md and AGENTS.md for this project before any code is written."

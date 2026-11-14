@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bug Fix"
+  short_description: "หาสาเหตุบั๊กอย่างเป็นระบบ แก้จุดเดียว และเพิ่ม test กันซ้ำ"
+  default_prompt: "Use $bug-fix to find the root cause of this bug, explain it before changing code, then fix it and add a regression test."

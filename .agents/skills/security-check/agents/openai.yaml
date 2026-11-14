@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Check"
+  short_description: "ตรวจ RLS, key และ env vars แล้วรายงานความเสี่ยง"
+  default_prompt: "Use $security-check to audit this project for RLS gaps, exposed keys and env var mistakes. Report only, do not fix yet."

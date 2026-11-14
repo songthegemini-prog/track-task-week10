@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Setup"
+  short_description: "สร้างเว็บตั้งต้น Next.js ที่เชื่อม Supabase พร้อมหน้าตรวจสถานะ"
+  default_prompt: "Use $project-setup to create the starter Next.js + Supabase project in this folder and tell me what I need to do myself."

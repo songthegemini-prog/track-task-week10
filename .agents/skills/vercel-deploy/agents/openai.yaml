@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vercel Deploy"
+  short_description: "ตรวจความพร้อมและพา deploy Next.js + Supabase ขึ้น Vercel"
+  default_prompt: "Use $vercel-deploy to check this project is ready and give me the step-by-step checklist to deploy it to Vercel."

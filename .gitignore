@@ -1,0 +1,19 @@
+# ส่วนประกอบที่ติดตั้งและไฟล์ที่ได้จากการ build (สร้างใหม่ได้เสมอ)
+/node_modules
+/.next/
+/out/
+/build
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+setup-tmp/
+
+# ไฟล์เก็บรหัสเชื่อมต่อ ห้ามขึ้น GitHub
+.env*
+# ไฟล์ตัวอย่าง (ไม่มีค่าจริง) ให้ขึ้น GitHub ได้
+!.env.example
+
+# อื่น ๆ
+.DS_Store
+*.pem
+npm-debug.log*

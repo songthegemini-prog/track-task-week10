@@ -1,0 +1,4 @@
+interface:
+  display_name: "Supabase Feature"
+  short_description: "สร้างฟีเจอร์ทีละ user story พร้อม migration และ RLS"
+  default_prompt: "Use $supabase-feature to implement user story US-1 from docs/requirements.md, including the migration, RLS policies and UI."

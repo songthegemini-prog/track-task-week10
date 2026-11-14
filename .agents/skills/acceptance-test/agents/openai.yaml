@@ -1,0 +1,4 @@
+interface:
+  display_name: "Acceptance Test"
+  short_description: "ทดสอบตามเกณฑ์ยอมรับ พร้อมผลจริงและการทดสอบ 2 บัญชี"
+  default_prompt: "Use $acceptance-test to test this project against the acceptance criteria in docs/requirements.md and report real results."
